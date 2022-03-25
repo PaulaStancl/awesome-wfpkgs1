@@ -1,0 +1,36 @@
+{
+    "name": "signaturetoolslib",
+    "version": "0.1.0",
+    "description": "SNV caller",
+    "main": "main.nf",
+    "deprecated": false,
+    "keywords": [
+        "bioinformatics",
+        "mutational signatures"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paulastancl/awesome-wfpkgs1.git"
+    },
+    "container": {
+        "registries": [
+            {
+                "registry": "ghcr.io",
+                "type": "docker",
+                "org": "paulastancl",
+                "default": true
+            }
+        ]
+    },
+    "dependencies": [],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "PaulaStancl",
+            "email": "paula.stancl@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "bugReport": "https://github.com/paulastancl/awesome-wfpkgs1/issues",
+    "homepage": "https://github.com/paulastancl/awesome-wfpkgs1#readme"
+}
